@@ -1,0 +1,610 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-11-15T00:00:00Z",
+  "description": "Simulated social media DM data for pilot testing. Contains sample messages from Facebook and Instagram matching the PRD sample data table.",
+  "dms": [
+    {
+      "id": "sim-dm-001",
+      "platform": "instagram",
+      "senderName": "Sarah M.",
+      "senderHandle": "@sarah_m_designs",
+      "senderAvatar": null,
+      "message": "Hi! I've been looking at the Aura community in Calleya. We're a young family with a budget around $500-550k. Could you tell me more about the 4-bedroom options and what's available for move-in by March? We're currently renting in Cockburn and really love the area.",
+      "timestamp": "2024-11-15T09:23:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "family_home_purchase",
+        "detectedBudget": "$500,000 - $550,000",
+        "detectedLocation": "Aura at Calleya",
+        "detectedTimeline": "March 2025",
+        "detectedBuyerType": "young_family",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-002",
+      "platform": "facebook",
+      "senderName": "James M.",
+      "senderHandle": "james.mitchell.904",
+      "senderAvatar": null,
+      "message": "Hey there, I saw your ad about the new land release at Willowdale. I'm an investor looking at blocks under $400k. What's the expected rental yield in that area? Also interested in any house and land packages you might have.",
+      "timestamp": "2024-11-15T11:45:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "investment_property",
+        "detectedBudget": "Under $400,000",
+        "detectedLocation": "Willowdale",
+        "detectedTimeline": null,
+        "detectedBuyerType": "investor",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-003",
+      "platform": "instagram",
+      "senderName": "Priya B.",
+      "senderHandle": "@priya.bhatt",
+      "senderAvatar": null,
+      "message": "Hello! My husband and I are first home buyers. We've been pre-approved for $620k and are interested in the Elara estate in Marsden Park. Do you have any 3-bed homes with a study? We both work from home. When is the next display home open day?",
+      "timestamp": "2024-11-14T16:30:00Z",
+      "status": "replied",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "first_home_purchase",
+        "detectedBudget": "$620,000",
+        "detectedLocation": "Elara, Marsden Park",
+        "detectedTimeline": null,
+        "detectedBuyerType": "first_home_buyer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-004",
+      "platform": "facebook",
+      "senderName": "Tom R.",
+      "senderHandle": "tom.russo.77",
+      "senderAvatar": null,
+      "message": "Just wondering about the retirement living options at Cardinal Freeman. My mum is looking to downsize from her 4-bed house. She'd want a 2-bed unit with parking. Budget is flexible but probably around $800k-1M. Is there a waitlist?",
+      "timestamp": "2024-11-14T08:12:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "retirement_living",
+        "detectedBudget": "$800,000 - $1,000,000",
+        "detectedLocation": "Cardinal Freeman",
+        "detectedTimeline": null,
+        "detectedBuyerType": "downsizer_family_member",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-005",
+      "platform": "instagram",
+      "senderName": "Anika J.",
+      "senderHandle": "@anika.jones.living",
+      "senderAvatar": null,
+      "message": "Love what you're doing at Cloverton! 😍 We're thinking of building our dream home there. Budget is around $700k for house and land. Are there any premium corner lots still available? We want north-facing if possible. Happy to chat more!",
+      "timestamp": "2024-11-15T14:05:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "custom_build",
+        "detectedBudget": "$700,000",
+        "detectedLocation": "Cloverton",
+        "detectedTimeline": null,
+        "detectedBuyerType": "upgrader",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-006",
+      "platform": "facebook",
+      "senderName": "Michael T.",
+      "senderHandle": "michael.tran.528",
+      "senderAvatar": null,
+      "message": "Hi, I'm looking at buying my first home and was wondering about the Minta community in Berwick. I've got about $600k to spend. Are there any 3-bedroom options with a double garage? Also, am I eligible for any first home buyer grants?",
+      "timestamp": "2024-11-15T07:48:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "first_home_purchase",
+        "detectedBudget": "$600,000",
+        "detectedLocation": "Minta, Berwick",
+        "detectedTimeline": null,
+        "detectedBuyerType": "first_home_buyer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-007",
+      "platform": "instagram",
+      "senderName": "Emma L.",
+      "senderHandle": "@emma.l.property",
+      "senderAvatar": null,
+      "message": "Hey! Quick question — do you have any land-only lots available at Elara? Looking for something around 350-400sqm. We've already got a builder in mind but need the right block. Budget for land is around $430-450k.",
+      "timestamp": "2024-11-15T10:15:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "land_purchase",
+        "detectedBudget": "$430,000 - $450,000",
+        "detectedLocation": "Elara, Marsden Park",
+        "detectedTimeline": null,
+        "detectedBuyerType": "custom_builder",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-008",
+      "platform": "facebook",
+      "senderName": "David K.",
+      "senderHandle": "david.kim.melb",
+      "senderAvatar": null,
+      "message": "We're a family of 5 and need a bigger home. Currently in a 3-bed in Craigieburn and looking to upgrade. Cloverton looks great — do you have 5-bedroom homes? Our budget is around $750k. What builders do you work with there?",
+      "timestamp": "2024-11-14T13:22:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "family_home_upgrade",
+        "detectedBudget": "$750,000",
+        "detectedLocation": "Cloverton",
+        "detectedTimeline": null,
+        "detectedBuyerType": "upgrader",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-009",
+      "platform": "instagram",
+      "senderName": "Rachel W.",
+      "senderHandle": "@rachel.w.home",
+      "senderAvatar": null,
+      "message": "Hi there! My partner and I are looking at Willowdale. We love that it's close to the new airport. We're first home buyers with a budget of $570k. Do you have anything available that could be ready by mid-2025? We're currently renting in Liverpool.",
+      "timestamp": "2024-11-15T15:30:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "first_home_purchase",
+        "detectedBudget": "$570,000",
+        "detectedLocation": "Willowdale, Leppington",
+        "detectedTimeline": "Mid-2025",
+        "detectedBuyerType": "first_home_buyer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-010",
+      "platform": "facebook",
+      "senderName": "Steve P.",
+      "senderHandle": "steve.patel.investor",
+      "senderAvatar": null,
+      "message": "G'day, I'm looking to add another investment property to my portfolio. Interested in Cloverton — what are the land prices like for standard lots? Also keen to know about expected capital growth in the area with the new infrastructure coming.",
+      "timestamp": "2024-11-14T09:55:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "investment_property",
+        "detectedBudget": null,
+        "detectedLocation": "Cloverton",
+        "detectedTimeline": null,
+        "detectedBuyerType": "investor",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-011",
+      "platform": "instagram",
+      "senderName": "Lisa C.",
+      "senderHandle": "@lisa.chen.perth",
+      "senderAvatar": null,
+      "message": "Hi! We just moved to Perth from Sydney and are looking at Aura at Calleya. Love the bushland setting! We need a 3-bed with a study for WFH. Budget is $450-480k. Are there any homes ready to move into soon? We're staying with family at the moment.",
+      "timestamp": "2024-11-15T12:10:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "family_home_purchase",
+        "detectedBudget": "$450,000 - $480,000",
+        "detectedLocation": "Aura at Calleya",
+        "detectedTimeline": "ASAP",
+        "detectedBuyerType": "relocator",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-012",
+      "platform": "facebook",
+      "senderName": "Margaret H.",
+      "senderHandle": "margaret.harris.55",
+      "senderAvatar": null,
+      "message": "Hello, I'm interested in the retirement living at Cardinal Freeman for myself. I'm 68 and currently living alone in a 3-bedroom house in Strathfield. Looking for a 1-bedroom apartment — something manageable. Budget around $600k. Are pets allowed? I have a small dog.",
+      "timestamp": "2024-11-14T11:40:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "retirement_living",
+        "detectedBudget": "$600,000",
+        "detectedLocation": "Cardinal Freeman",
+        "detectedTimeline": null,
+        "detectedBuyerType": "downsizer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-013",
+      "platform": "instagram",
+      "senderName": "Ben A.",
+      "senderHandle": "@ben.a.builds",
+      "senderAvatar": null,
+      "message": "Yo! Saw your Minta community on Insta. Looks sick 🔥 Me and my girlfriend are saving for our first place. We've got about $580k. Is that enough for a 3-bedder? What grants can we get in VIC? Cheers!",
+      "timestamp": "2024-11-15T16:45:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "first_home_purchase",
+        "detectedBudget": "$580,000",
+        "detectedLocation": "Minta, Berwick",
+        "detectedTimeline": null,
+        "detectedBuyerType": "first_home_buyer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-014",
+      "platform": "facebook",
+      "senderName": "Karen O.",
+      "senderHandle": "karen.obrien.nsw",
+      "senderAvatar": null,
+      "message": "Hi, I'm a single mum with two kids and I'm looking for an affordable family home. I've been pre-approved for $560k. Is there anything at Willowdale or Elara that could work? I need at least 3 bedrooms and somewhere close to schools. Any help would be appreciated!",
+      "timestamp": "2024-11-15T08:30:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "family_home_purchase",
+        "detectedBudget": "$560,000",
+        "detectedLocation": "Willowdale or Elara",
+        "detectedTimeline": null,
+        "detectedBuyerType": "family",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-015",
+      "platform": "instagram",
+      "senderName": "Chris D.",
+      "senderHandle": "@chris.d.invest",
+      "senderAvatar": null,
+      "message": "Hey team, I'm looking at buying 2-3 investment properties in growth corridors. Interested in both Willowdale and Cloverton. What's the best value H&L packages you have right now? Looking to spend around $550-600k per property. Can you send me some info?",
+      "timestamp": "2024-11-14T14:50:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "investment_property_multiple",
+        "detectedBudget": "$550,000 - $600,000 per property",
+        "detectedLocation": "Willowdale and Cloverton",
+        "detectedTimeline": null,
+        "detectedBuyerType": "investor",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-016",
+      "platform": "facebook",
+      "senderName": "Jenny L.",
+      "senderHandle": "jenny.liu.456",
+      "senderAvatar": null,
+      "message": "Hello! We're downsizing from our family home in Berwick. Just the two of us now that the kids have moved out. Looking at Minta for a nice 3-bed, low maintenance home. Budget is around $620k. Do you have anything with a smaller garden? We're done with big lawns! 😄",
+      "timestamp": "2024-11-15T13:15:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "downsizer_purchase",
+        "detectedBudget": "$620,000",
+        "detectedLocation": "Minta, Berwick",
+        "detectedTimeline": null,
+        "detectedBuyerType": "downsizer",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-017",
+      "platform": "instagram",
+      "senderName": "Sam N.",
+      "senderHandle": "@sam.nguyen.photo",
+      "senderAvatar": null,
+      "message": "Hi! I'm a photographer and I work from home. Looking for a place at Elara with good natural light — ideally north-facing. Need 3 beds + a dedicated study/studio space. Budget is $640k. Do any of your floor plans have a larger study or flex room?",
+      "timestamp": "2024-11-14T17:20:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "home_purchase_wfh",
+        "detectedBudget": "$640,000",
+        "detectedLocation": "Elara, Marsden Park",
+        "detectedTimeline": null,
+        "detectedBuyerType": "work_from_home",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-018",
+      "platform": "facebook",
+      "senderName": "Robert G.",
+      "senderHandle": "robert.garcia.wa",
+      "senderAvatar": null,
+      "message": "G'day! Looking at a large block at Aura in Calleya to build a custom home. Want at least 500sqm, north-facing. Budget for land is around $320-360k. Then we'll spend another $350-400k on the build. What's available in the latest release?",
+      "timestamp": "2024-11-15T06:50:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "land_purchase_custom_build",
+        "detectedBudget": "$320,000 - $360,000 (land)",
+        "detectedLocation": "Aura at Calleya",
+        "detectedTimeline": null,
+        "detectedBuyerType": "custom_builder",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-019",
+      "platform": "instagram",
+      "senderName": "Tanya S.",
+      "senderHandle": "@tanya.s.style",
+      "senderAvatar": null,
+      "message": "OMG the homes at Cloverton look amazing! 😍🏡 My fiancé and I are getting married next year and want to buy our first home together. We've saved $80k for a deposit and are looking at around $520-560k total. Is that realistic for a 3-bed there? Would love to visit the display village!",
+      "timestamp": "2024-11-15T17:00:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "first_home_purchase",
+        "detectedBudget": "$520,000 - $560,000",
+        "detectedLocation": "Cloverton",
+        "detectedTimeline": "2025",
+        "detectedBuyerType": "first_home_buyer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-020",
+      "platform": "facebook",
+      "senderName": "Alan W.",
+      "senderHandle": "alan.wong.ret",
+      "senderAvatar": null,
+      "message": "Hi there. My wife and I are both 62 and thinking about our next chapter. We've been looking at Cardinal Freeman. We'd like a 2-bedroom premium apartment — something with a nice view if possible. Our budget is up to $1M. Can we book a tour? We're available most weekdays.",
+      "timestamp": "2024-11-14T10:05:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "retirement_living",
+        "detectedBudget": "Up to $1,000,000",
+        "detectedLocation": "Cardinal Freeman",
+        "detectedTimeline": null,
+        "detectedBuyerType": "retirement_couple",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-021",
+      "platform": "instagram",
+      "senderName": "Zara K.",
+      "senderHandle": "@zara.k.adventures",
+      "senderAvatar": null,
+      "message": "Hey! Just curious about Willowdale — is it true there's a new land release coming soon? I've been watching the area for a while. Looking for a corner lot around 400sqm. What's the price range looking like? Don't want to miss out this time!",
+      "timestamp": "2024-11-15T11:00:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "land_purchase",
+        "detectedBudget": null,
+        "detectedLocation": "Willowdale, Leppington",
+        "detectedTimeline": "Upcoming release",
+        "detectedBuyerType": "land_buyer",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-022",
+      "platform": "facebook",
+      "senderName": "Paul M.",
+      "senderHandle": "paul.martinez.bne",
+      "senderAvatar": null,
+      "message": "Hi, I'm relocating to Melbourne for work and need to find a home quickly. Looking at Minta in Berwick — seems like a great area. Need a 4-bed for the family, budget around $700k. Are there any completed homes available for quick settlement? We need to move by February.",
+      "timestamp": "2024-11-14T15:35:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "family_home_purchase_urgent",
+        "detectedBudget": "$700,000",
+        "detectedLocation": "Minta, Berwick",
+        "detectedTimeline": "February 2025",
+        "detectedBuyerType": "relocator",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-023",
+      "platform": "instagram",
+      "senderName": "Olivia F.",
+      "senderHandle": "@olivia.f.interiors",
+      "senderAvatar": null,
+      "message": "Hi! I'm an interior designer and I'm looking to buy a home at Aura Calleya that I can really make my own. Interested in a 4-bed with good bones — open plan, lots of natural light. Budget is $540k. Do your builders offer any customisation options or is it all fixed?",
+      "timestamp": "2024-11-15T09:50:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "home_purchase_customisation",
+        "detectedBudget": "$540,000",
+        "detectedLocation": "Aura at Calleya",
+        "detectedTimeline": null,
+        "detectedBuyerType": "upgrader",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-024",
+      "platform": "facebook",
+      "senderName": "Nina R.",
+      "senderHandle": "nina.robinson.syd",
+      "senderAvatar": null,
+      "message": "Hello! My parents are looking at Cardinal Freeman. They're both in their early 70s and want to stay active. Mum loves swimming and Dad enjoys gardening. They'd need a 2-bed apartment with easy access (no stairs). Budget is around $850k. What facilities do you have?",
+      "timestamp": "2024-11-15T14:40:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "retirement_living",
+        "detectedBudget": "$850,000",
+        "detectedLocation": "Cardinal Freeman",
+        "detectedTimeline": null,
+        "detectedBuyerType": "downsizer_family_member",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-025",
+      "platform": "instagram",
+      "senderName": "Josh B.",
+      "senderHandle": "@josh.b.tradie",
+      "senderAvatar": null,
+      "message": "Oi legend! Me and the missus want to buy our first home. We're tradies so we need a double garage minimum — ideally with extra storage. Looking at Cloverton or Minta. Budget is about $550k. What's the go? Any H&L packages with big garages? 🔨🏠",
+      "timestamp": "2024-11-14T18:10:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "first_home_purchase",
+        "detectedBudget": "$550,000",
+        "detectedLocation": "Cloverton or Minta",
+        "detectedTimeline": null,
+        "detectedBuyerType": "first_home_buyer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-026",
+      "platform": "facebook",
+      "senderName": "Helen T.",
+      "senderHandle": "helen.thompson.melb",
+      "senderAvatar": null,
+      "message": "Hi, I noticed you have display homes at Cloverton. I'd love to bring my family through this weekend. Is it open on Saturdays? Also, do you have a kids' play area at the display village? We have a 3-year-old and a 5-year-old so it would be great if they could be entertained while we look around!",
+      "timestamp": "2024-11-15T10:30:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "general_inquiry",
+        "detectedIntent": "display_village_visit",
+        "detectedBudget": null,
+        "detectedLocation": "Cloverton",
+        "detectedTimeline": "This weekend",
+        "detectedBuyerType": "family",
+        "priority": "low"
+      }
+    },
+    {
+      "id": "sim-dm-027",
+      "platform": "instagram",
+      "senderName": "Daniel Y.",
+      "senderHandle": "@daniel.y.finance",
+      "senderAvatar": null,
+      "message": "Hi team, I'm a financial planner and I have several clients interested in investing in Stockland communities. Could you send me your investor packs for Willowdale and Cloverton? Specifically looking for rental yield data, capital growth projections, and depreciation schedules. Thanks!",
+      "timestamp": "2024-11-14T12:00:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "professional_inquiry",
+        "detectedIntent": "investment_information_request",
+        "detectedBudget": null,
+        "detectedLocation": "Willowdale and Cloverton",
+        "detectedTimeline": null,
+        "detectedBuyerType": "professional_referrer",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-028",
+      "platform": "facebook",
+      "senderName": "Amy S.",
+      "senderHandle": "amy.singh.perth",
+      "senderAvatar": null,
+      "message": "Hi! We're currently renting in Aubin Grove and love the area. Just found out about Aura at Calleya — it's so close! We're first home buyers with a combined income of $130k. Haven't been pre-approved yet but think we could afford around $470k. Where do we even start? 😅",
+      "timestamp": "2024-11-15T08:15:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "first_home_purchase",
+        "detectedBudget": "$470,000 (estimated)",
+        "detectedLocation": "Aura at Calleya",
+        "detectedTimeline": null,
+        "detectedBuyerType": "first_home_buyer",
+        "priority": "high"
+      }
+    },
+    {
+      "id": "sim-dm-029",
+      "platform": "instagram",
+      "senderName": "Mark F.",
+      "senderHandle": "@mark.f.property",
+      "senderAvatar": null,
+      "message": "Quick question — I bought a block at Willowdale last year and I'm about to start building. Do you have any recommended builders who specialise in dual-occupancy or granny flat designs? Want to maximise the rental income from the property. Cheers!",
+      "timestamp": "2024-11-14T19:30:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "existing_customer_inquiry",
+        "detectedIntent": "builder_recommendation",
+        "detectedBudget": null,
+        "detectedLocation": "Willowdale, Leppington",
+        "detectedTimeline": null,
+        "detectedBuyerType": "existing_customer",
+        "priority": "medium"
+      }
+    },
+    {
+      "id": "sim-dm-030",
+      "platform": "facebook",
+      "senderName": "Grace W.",
+      "senderHandle": "grace.wang.88",
+      "senderAvatar": null,
+      "message": "Hello, I'm interested in buying at Elara for my daughter who's starting uni at Western Sydney next year. Looking for a small 3-bed that she can share with friends. Budget is $550k. Is it a safe area? What's the public transport like to get to the Parramatta campus?",
+      "timestamp": "2024-11-15T16:20:00Z",
+      "status": "new",
+      "metadata": {
+        "messageType": "inquiry",
+        "detectedIntent": "family_purchase_for_child",
+        "detectedBudget": "$550,000",
+        "detectedLocation": "Elara, Marsden Park",
+        "detectedTimeline": "Before 2025 uni year",
+        "detectedBuyerType": "parent_buyer",
+        "priority": "medium"
+      }
+    }
+  ],
+  "summary": {
+    "totalDMs": 30,
+    "platforms": {
+      "instagram": 15,
+      "facebook": 15
+    },
+    "statuses": {
+      "new": 29,
+      "replied": 1
+    },
+    "priorities": {
+      "high": 19,
+      "medium": 9,
+      "low": 2
+    },
+    "buyerTypes": {
+      "first_home_buyer": 7,
+      "family": 5,
+      "investor": 4,
+      "downsizer": 3,
+      "retirement": 3,
+      "upgrader": 3,
+      "other": 5
+    },
+    "communities": {
+      "Aura at Calleya": 5,
+      "Willowdale": 5,
+      "Elara": 5,
+      "Cloverton": 6,
+      "Minta": 5,
+      "Cardinal Freeman": 4
+    }
+  }
+}

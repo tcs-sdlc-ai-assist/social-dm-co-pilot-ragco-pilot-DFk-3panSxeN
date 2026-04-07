@@ -1,0 +1,1017 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-11-15T00:00:00Z",
+  "communities": [
+    {
+      "id": "community-elara",
+      "name": "Elara",
+      "location": "Marsden Park, NSW",
+      "state": "NSW",
+      "type": "masterplanned_community",
+      "status": "selling",
+      "description": "Elara is a thriving masterplanned community in Marsden Park, offering a range of house and land packages perfect for families, first home buyers, and investors. With parks, playgrounds, schools, and shopping nearby, Elara provides everything you need for modern living in Sydney's north-west growth corridor.",
+      "features": [
+        "Masterplanned community with over 2,000 homes",
+        "Multiple parks and playgrounds",
+        "Walking and cycling trails",
+        "Close to Elara Village Shopping Centre",
+        "Near Northbourne Public School and St Luke's Catholic College",
+        "Easy access to Schofields and Tallawong Metro stations",
+        "Community events and activities program",
+        "NBN connected"
+      ],
+      "amenities": [
+        "Community centre",
+        "Dog park",
+        "Sports fields",
+        "Children's playgrounds",
+        "BBQ areas",
+        "Walking trails",
+        "Retail village"
+      ],
+      "transport": {
+        "trainStations": ["Schofields Station", "Tallawong Metro Station"],
+        "majorRoads": ["Richmond Road", "Garfield Road"],
+        "distanceToCBD": "45km to Sydney CBD"
+      },
+      "education": [
+        "Northbourne Public School",
+        "St Luke's Catholic College",
+        "Marsden Park Public School (planned)",
+        "Multiple childcare centres"
+      ],
+      "listings": [
+        {
+          "id": "listing-elara-001",
+          "type": "house_and_land",
+          "name": "Harmony 22",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "garage": 1,
+          "floorPlan": "Harmony",
+          "landSize": "300sqm",
+          "houseSize": "145sqm",
+          "priceFrom": 589000,
+          "priceTo": 620000,
+          "features": ["Open-plan living", "Dedicated study nook", "Alfresco area", "Stone benchtops", "900mm appliances"],
+          "availability": "available",
+          "estimatedCompletion": "Q2 2025",
+          "suitableFor": ["first_home_buyers", "families", "work_from_home"]
+        },
+        {
+          "id": "listing-elara-002",
+          "type": "house_and_land",
+          "name": "Harmony 25",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Harmony",
+          "landSize": "375sqm",
+          "houseSize": "185sqm",
+          "priceFrom": 649000,
+          "priceTo": 699000,
+          "features": ["Open-plan living", "Dedicated study", "Butler's pantry", "Alfresco area", "Master suite with walk-in robe", "Double garage"],
+          "availability": "available",
+          "estimatedCompletion": "Q2 2025",
+          "suitableFor": ["families", "work_from_home", "upgraders"]
+        },
+        {
+          "id": "listing-elara-003",
+          "type": "house_and_land",
+          "name": "Aspire 20",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "garage": 1,
+          "floorPlan": "Aspire",
+          "landSize": "264sqm",
+          "houseSize": "130sqm",
+          "priceFrom": 539000,
+          "priceTo": 569000,
+          "features": ["Compact living", "Open-plan kitchen and dining", "Covered alfresco", "Low maintenance"],
+          "availability": "available",
+          "estimatedCompletion": "Q1 2025",
+          "suitableFor": ["first_home_buyers", "downsizers", "investors"]
+        },
+        {
+          "id": "listing-elara-004",
+          "type": "land",
+          "name": "Elara Release 42 - Standard Lot",
+          "landSize": "350sqm",
+          "priceFrom": 420000,
+          "priceTo": 450000,
+          "features": ["Flat block", "North-facing options available", "NBN ready", "Close to parks"],
+          "availability": "limited",
+          "suitableFor": ["custom_builders", "families", "investors"]
+        },
+        {
+          "id": "listing-elara-005",
+          "type": "land",
+          "name": "Elara Release 42 - Premium Lot",
+          "landSize": "450sqm",
+          "priceFrom": 490000,
+          "priceTo": 530000,
+          "features": ["Corner lot options", "North-facing", "Premium position", "Park frontage available"],
+          "availability": "limited",
+          "suitableFor": ["custom_builders", "families", "upgraders"]
+        }
+      ],
+      "displayVillage": {
+        "address": "Elara Boulevard, Marsden Park NSW 2765",
+        "openHours": "Monday to Sunday, 10am - 5pm",
+        "displayHomes": 18,
+        "builders": ["Metricon", "McDonald Jones", "Rawson Homes", "Eden Brae", "Wisdom Homes"]
+      },
+      "grants": [
+        {
+          "name": "First Home Owner Grant (NSW)",
+          "amount": 10000,
+          "eligibility": "First home buyers purchasing a new home valued up to $600,000 (or land + building up to $750,000)",
+          "details": "The NSW Government provides a $10,000 grant for eligible first home buyers purchasing or building a new home."
+        },
+        {
+          "name": "First Home Buyer Assistance Scheme",
+          "amount": null,
+          "eligibility": "First home buyers purchasing property up to $800,000",
+          "details": "Stamp duty exemptions for properties up to $650,000, and concessions for properties between $650,000 and $800,000."
+        }
+      ]
+    },
+    {
+      "id": "community-aura",
+      "name": "Aura",
+      "suburb": "Calleya",
+      "location": "Calleya, Treeby, WA",
+      "state": "WA",
+      "type": "masterplanned_community",
+      "status": "selling",
+      "description": "Aura at Calleya is a vibrant community in Perth's southern corridor, offering a range of house and land packages ideal for young families and first home buyers. Set amongst natural bushland with modern amenities, Aura combines the best of suburban living with easy access to Cockburn and Fremantle.",
+      "features": [
+        "Bushland setting with natural reserves",
+        "Community parks and playgrounds",
+        "Walking and cycling paths",
+        "Close to Cockburn Gateway Shopping City",
+        "Near Aubin Grove Train Station",
+        "Family-friendly neighbourhood",
+        "NBN connected",
+        "Landscaped streetscapes"
+      ],
+      "amenities": [
+        "Community park",
+        "Nature playground",
+        "Walking trails through bushland",
+        "BBQ facilities",
+        "Dog exercise area",
+        "Community garden"
+      ],
+      "transport": {
+        "trainStations": ["Aubin Grove Station"],
+        "majorRoads": ["Kwinana Freeway", "Armadale Road"],
+        "distanceToCBD": "25km to Perth CBD"
+      },
+      "education": [
+        "Calleya Primary School (planned)",
+        "Hammond Park Secondary College",
+        "Aubin Grove Primary School",
+        "Multiple childcare centres"
+      ],
+      "listings": [
+        {
+          "id": "listing-aura-001",
+          "type": "house_and_land",
+          "name": "Aspire 18",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Aspire",
+          "landSize": "300sqm",
+          "houseSize": "140sqm",
+          "priceFrom": 429000,
+          "priceTo": 459000,
+          "features": ["Open-plan living", "Theatre room", "Alfresco", "Double garage", "Stone benchtops"],
+          "availability": "available",
+          "estimatedCompletion": "Q1 2025",
+          "suitableFor": ["first_home_buyers", "young_families"]
+        },
+        {
+          "id": "listing-aura-002",
+          "type": "house_and_land",
+          "name": "Aspire 22",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Aspire",
+          "landSize": "375sqm",
+          "houseSize": "175sqm",
+          "priceFrom": 499000,
+          "priceTo": 549000,
+          "features": ["4 bedrooms", "Open-plan living", "Activity room", "Alfresco", "Walk-in pantry", "Master suite with ensuite"],
+          "availability": "available",
+          "estimatedCompletion": "Q1 2025",
+          "suitableFor": ["families", "upgraders"]
+        },
+        {
+          "id": "listing-aura-003",
+          "type": "house_and_land",
+          "name": "Aspire 26",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Aspire",
+          "landSize": "448sqm",
+          "houseSize": "210sqm",
+          "priceFrom": 539000,
+          "priceTo": 579000,
+          "features": ["Large 4 bedrooms", "Study nook", "Open-plan living", "Theatre room", "Alfresco with café blinds", "Double garage", "Walk-in robes"],
+          "availability": "available",
+          "estimatedCompletion": "Q2 2025",
+          "suitableFor": ["families", "upgraders", "work_from_home"]
+        },
+        {
+          "id": "listing-aura-004",
+          "type": "land",
+          "name": "Aura Release 15 - Standard Lot",
+          "landSize": "350sqm",
+          "priceFrom": 249000,
+          "priceTo": 279000,
+          "features": ["Flat block", "Close to park", "NBN ready"],
+          "availability": "available",
+          "suitableFor": ["custom_builders", "first_home_buyers", "investors"]
+        },
+        {
+          "id": "listing-aura-005",
+          "type": "land",
+          "name": "Aura Release 15 - Premium Lot",
+          "landSize": "512sqm",
+          "priceFrom": 319000,
+          "priceTo": 359000,
+          "features": ["Large block", "North-facing options", "Bushland views", "Premium position"],
+          "availability": "limited",
+          "suitableFor": ["custom_builders", "families", "upgraders"]
+        }
+      ],
+      "displayVillage": {
+        "address": "Yellowwood Boulevard, Treeby WA 6164",
+        "openHours": "Monday to Sunday, 12pm - 5pm (Wednesday to Sunday during winter)",
+        "displayHomes": 12,
+        "builders": ["Summit Homes", "Homebuyers Centre", "Celebration Homes", "Content Living", "Plunkett Homes"]
+      },
+      "grants": [
+        {
+          "name": "First Home Owner Grant (WA)",
+          "amount": 10000,
+          "eligibility": "First home buyers purchasing or building a new home valued up to $750,000",
+          "details": "The WA Government provides a $10,000 grant for eligible first home buyers purchasing or building a new home."
+        },
+        {
+          "name": "Keystart Home Loans",
+          "amount": null,
+          "eligibility": "Income limits apply — singles up to $105,000, couples up to $150,000",
+          "details": "Low deposit home loans with no lenders mortgage insurance, available through the WA Government's Keystart program."
+        }
+      ]
+    },
+    {
+      "id": "community-minta",
+      "name": "Minta",
+      "location": "Berwick, VIC",
+      "state": "VIC",
+      "type": "masterplanned_community",
+      "status": "selling",
+      "description": "Minta is a premium masterplanned community in Berwick, one of Melbourne's most sought-after south-eastern suburbs. Offering a range of house and land packages with excellent schools, shopping, and transport links, Minta is ideal for families seeking a connected lifestyle.",
+      "features": [
+        "Premium Berwick location",
+        "Established suburb with full amenities",
+        "Close to Berwick Village and Eden Rise Shopping Centre",
+        "Near Berwick and Beaconsfield train stations",
+        "Top-rated schools nearby",
+        "Community parks and wetlands",
+        "Walking and cycling trails",
+        "NBN connected"
+      ],
+      "amenities": [
+        "Wetlands and water features",
+        "Community parks",
+        "Playground",
+        "Walking trails",
+        "Sports oval",
+        "BBQ areas"
+      ],
+      "transport": {
+        "trainStations": ["Berwick Station", "Beaconsfield Station"],
+        "majorRoads": ["Princes Freeway", "Clyde Road"],
+        "distanceToCBD": "45km to Melbourne CBD"
+      },
+      "education": [
+        "Berwick Lodge Primary School",
+        "St Margaret's Primary School",
+        "Nossal High School",
+        "Beaconhills College",
+        "Federation University Berwick Campus"
+      ],
+      "listings": [
+        {
+          "id": "listing-minta-001",
+          "type": "house_and_land",
+          "name": "Minta Signature 21",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Signature",
+          "landSize": "322sqm",
+          "houseSize": "155sqm",
+          "priceFrom": 579000,
+          "priceTo": 619000,
+          "features": ["Open-plan living", "Stone benchtops", "Stainless steel appliances", "Alfresco", "Double garage"],
+          "availability": "available",
+          "estimatedCompletion": "Q2 2025",
+          "suitableFor": ["first_home_buyers", "young_families", "downsizers"]
+        },
+        {
+          "id": "listing-minta-002",
+          "type": "house_and_land",
+          "name": "Minta Signature 27",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Signature",
+          "landSize": "420sqm",
+          "houseSize": "210sqm",
+          "priceFrom": 689000,
+          "priceTo": 749000,
+          "features": ["4 bedrooms", "Study", "Butler's pantry", "Master suite with walk-in robe and ensuite", "Alfresco entertaining", "Double garage"],
+          "availability": "available",
+          "estimatedCompletion": "Q3 2025",
+          "suitableFor": ["families", "upgraders", "work_from_home"]
+        },
+        {
+          "id": "listing-minta-003",
+          "type": "land",
+          "name": "Minta Release 8 - Standard Lot",
+          "landSize": "350sqm",
+          "priceFrom": 380000,
+          "priceTo": 420000,
+          "features": ["Flat block", "Close to wetlands", "NBN ready", "Established neighbourhood"],
+          "availability": "available",
+          "suitableFor": ["custom_builders", "families"]
+        },
+        {
+          "id": "listing-minta-004",
+          "type": "land",
+          "name": "Minta Release 8 - Premium Lot",
+          "landSize": "512sqm",
+          "priceFrom": 460000,
+          "priceTo": 510000,
+          "features": ["Large block", "Wetland views", "North-facing options", "Premium streetscape"],
+          "availability": "limited",
+          "suitableFor": ["custom_builders", "upgraders"]
+        }
+      ],
+      "displayVillage": {
+        "address": "Minta Farm Boulevard, Berwick VIC 3806",
+        "openHours": "Monday to Sunday, 11am - 5pm",
+        "displayHomes": 15,
+        "builders": ["Metricon", "Henley", "Simonds", "Burbank", "Porter Davis"]
+      },
+      "grants": [
+        {
+          "name": "First Home Owner Grant (VIC)",
+          "amount": 10000,
+          "eligibility": "First home buyers purchasing a new home valued up to $750,000",
+          "details": "The Victorian Government provides a $10,000 grant for eligible first home buyers purchasing or building a new home."
+        },
+        {
+          "name": "First Home Buyer Duty Exemption",
+          "amount": null,
+          "eligibility": "First home buyers purchasing property up to $600,000",
+          "details": "Full stamp duty exemption for properties up to $600,000, and concessions for properties between $600,000 and $750,000."
+        }
+      ]
+    },
+    {
+      "id": "community-willowdale",
+      "name": "Willowdale",
+      "location": "Leppington, NSW",
+      "state": "NSW",
+      "type": "masterplanned_community",
+      "status": "selling",
+      "description": "Willowdale is one of Sydney's most successful masterplanned communities, located in the high-growth corridor of Leppington. With a thriving town centre, excellent schools, and easy access to the new Western Sydney Airport, Willowdale is perfect for families and investors alike.",
+      "features": [
+        "Award-winning masterplanned community",
+        "Willowdale Town Centre with shops and dining",
+        "Close to Leppington Train Station",
+        "Near the new Western Sydney Airport",
+        "Multiple schools and childcare centres",
+        "Community parks and sports facilities",
+        "Walking and cycling trails",
+        "NBN connected"
+      ],
+      "amenities": [
+        "Town centre with retail and dining",
+        "Community centre",
+        "Sports fields and courts",
+        "Playgrounds",
+        "Walking and cycling trails",
+        "Dog park",
+        "BBQ areas"
+      ],
+      "transport": {
+        "trainStations": ["Leppington Station"],
+        "majorRoads": ["Camden Valley Way", "Bringelly Road"],
+        "distanceToCBD": "50km to Sydney CBD"
+      },
+      "education": [
+        "Leppington Public School",
+        "Willowdale Primary School (planned)",
+        "Robert Gillespie High School (planned)",
+        "Multiple childcare centres"
+      ],
+      "listings": [
+        {
+          "id": "listing-willowdale-001",
+          "type": "house_and_land",
+          "name": "Willowdale Classic 20",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "garage": 1,
+          "floorPlan": "Classic",
+          "landSize": "280sqm",
+          "houseSize": "135sqm",
+          "priceFrom": 559000,
+          "priceTo": 589000,
+          "features": ["Open-plan living", "Covered alfresco", "Stone benchtops", "Single garage"],
+          "availability": "available",
+          "estimatedCompletion": "Q1 2025",
+          "suitableFor": ["first_home_buyers", "investors"]
+        },
+        {
+          "id": "listing-willowdale-002",
+          "type": "house_and_land",
+          "name": "Willowdale Classic 25",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Classic",
+          "landSize": "375sqm",
+          "houseSize": "190sqm",
+          "priceFrom": 649000,
+          "priceTo": 699000,
+          "features": ["4 bedrooms", "Study nook", "Open-plan living", "Alfresco", "Double garage", "Walk-in pantry"],
+          "availability": "available",
+          "estimatedCompletion": "Q2 2025",
+          "suitableFor": ["families", "upgraders"]
+        },
+        {
+          "id": "listing-willowdale-003",
+          "type": "land",
+          "name": "Willowdale Release 30 - Standard Lot",
+          "landSize": "320sqm",
+          "priceFrom": 370000,
+          "priceTo": 400000,
+          "features": ["Flat block", "Close to town centre", "NBN ready"],
+          "availability": "available",
+          "suitableFor": ["custom_builders", "investors", "first_home_buyers"]
+        },
+        {
+          "id": "listing-willowdale-004",
+          "type": "land",
+          "name": "Willowdale Release 30 - Premium Lot",
+          "landSize": "450sqm",
+          "priceFrom": 430000,
+          "priceTo": 470000,
+          "features": ["Large block", "Corner lot options", "Park frontage", "Premium position"],
+          "availability": "limited",
+          "suitableFor": ["custom_builders", "families"]
+        }
+      ],
+      "displayVillage": {
+        "address": "Willowdale Drive, Leppington NSW 2179",
+        "openHours": "Monday to Sunday, 10am - 5pm",
+        "displayHomes": 22,
+        "builders": ["Metricon", "McDonald Jones", "Rawson Homes", "Wisdom Homes", "Thrive Homes", "Eden Brae"]
+      },
+      "grants": [
+        {
+          "name": "First Home Owner Grant (NSW)",
+          "amount": 10000,
+          "eligibility": "First home buyers purchasing a new home valued up to $600,000 (or land + building up to $750,000)",
+          "details": "The NSW Government provides a $10,000 grant for eligible first home buyers purchasing or building a new home."
+        },
+        {
+          "name": "First Home Buyer Assistance Scheme",
+          "amount": null,
+          "eligibility": "First home buyers purchasing property up to $800,000",
+          "details": "Stamp duty exemptions for properties up to $650,000, and concessions for properties between $650,000 and $800,000."
+        }
+      ],
+      "investorInfo": {
+        "expectedRentalYield": "4.2% - 4.5%",
+        "medianRent": "$550 - $650 per week (4-bed house)",
+        "capitalGrowth": "Strong growth corridor with Western Sydney Airport and Aerotropolis driving demand",
+        "vacancyRate": "1.2%",
+        "depreciationBenefits": "New builds eligible for maximum depreciation deductions under Division 40 and Division 43"
+      }
+    },
+    {
+      "id": "community-cloverton",
+      "name": "Cloverton",
+      "location": "Kalkallo, VIC",
+      "state": "VIC",
+      "type": "masterplanned_community",
+      "status": "selling",
+      "description": "Cloverton is one of Australia's largest masterplanned communities, located in Melbourne's thriving northern growth corridor. With a future town centre, schools, parks, and excellent transport links, Cloverton offers an exciting opportunity to build your dream home in a connected community.",
+      "features": [
+        "One of Australia's largest masterplanned communities",
+        "Future town centre with retail, dining, and services",
+        "Close to Donnybrook and Kalkallo train stations (planned)",
+        "Easy access to Hume Freeway",
+        "Multiple schools planned",
+        "Extensive parks and open spaces",
+        "Walking and cycling trails",
+        "NBN connected"
+      ],
+      "amenities": [
+        "Community parks",
+        "Playgrounds",
+        "Sports ovals",
+        "Walking and cycling trails",
+        "Future town centre",
+        "Wetlands and conservation areas",
+        "BBQ facilities"
+      ],
+      "transport": {
+        "trainStations": ["Donnybrook Station (planned)", "Kalkallo Station (planned)"],
+        "majorRoads": ["Hume Freeway", "Donnybrook Road"],
+        "distanceToCBD": "40km to Melbourne CBD"
+      },
+      "education": [
+        "Cloverton Primary School (planned)",
+        "Kalkallo Primary School",
+        "Hume Anglican Grammar",
+        "Multiple childcare centres"
+      ],
+      "listings": [
+        {
+          "id": "listing-cloverton-001",
+          "type": "house_and_land",
+          "name": "Cloverton Vista 20",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Vista",
+          "landSize": "350sqm",
+          "houseSize": "155sqm",
+          "priceFrom": 489000,
+          "priceTo": 529000,
+          "features": ["Open-plan living", "Alfresco", "Stone benchtops", "Double garage", "Low maintenance"],
+          "availability": "available",
+          "estimatedCompletion": "Q1 2025",
+          "suitableFor": ["first_home_buyers", "young_families"]
+        },
+        {
+          "id": "listing-cloverton-002",
+          "type": "house_and_land",
+          "name": "Cloverton Vista 25",
+          "bedrooms": 4,
+          "bathrooms": 2,
+          "garage": 2,
+          "floorPlan": "Vista",
+          "landSize": "448sqm",
+          "houseSize": "200sqm",
+          "priceFrom": 579000,
+          "priceTo": 639000,
+          "features": ["4 bedrooms", "Study", "Open-plan living", "Butler's pantry", "Alfresco entertaining", "Double garage", "Walk-in robes"],
+          "availability": "available",
+          "estimatedCompletion": "Q2 2025",
+          "suitableFor": ["families", "upgraders", "work_from_home"]
+        },
+        {
+          "id": "listing-cloverton-003",
+          "type": "house_and_land",
+          "name": "Cloverton Grand 30",
+          "bedrooms": 5,
+          "bathrooms": 3,
+          "garage": 2,
+          "floorPlan": "Grand",
+          "landSize": "512sqm",
+          "houseSize": "260sqm",
+          "priceFrom": 699000,
+          "priceTo": 769000,
+          "features": ["5 bedrooms", "Study", "Rumpus room", "Butler's pantry", "Master suite with walk-in robe and ensuite", "Alfresco with outdoor kitchen", "Double garage"],
+          "availability": "available",
+          "estimatedCompletion": "Q3 2025",
+          "suitableFor": ["large_families", "upgraders"]
+        },
+        {
+          "id": "listing-cloverton-004",
+          "type": "land",
+          "name": "Cloverton Release 22 - Standard Lot",
+          "landSize": "350sqm",
+          "priceFrom": 290000,
+          "priceTo": 320000,
+          "features": ["Flat block", "Close to future town centre", "NBN ready"],
+          "availability": "available",
+          "suitableFor": ["custom_builders", "first_home_buyers", "investors"]
+        },
+        {
+          "id": "listing-cloverton-005",
+          "type": "land",
+          "name": "Cloverton Release 22 - Premium Corner Lot",
+          "landSize": "448sqm",
+          "priceFrom": 350000,
+          "priceTo": 390000,
+          "features": ["Corner lot", "North-facing options", "Premium position", "Park frontage available"],
+          "availability": "limited",
+          "suitableFor": ["custom_builders", "families", "upgraders"]
+        },
+        {
+          "id": "listing-cloverton-006",
+          "type": "land",
+          "name": "Cloverton Release 22 - Large Premium Lot",
+          "landSize": "512sqm",
+          "priceFrom": 380000,
+          "priceTo": 420000,
+          "features": ["Large block", "North-facing", "Premium streetscape", "Ideal for large homes"],
+          "availability": "limited",
+          "suitableFor": ["custom_builders", "large_families"]
+        }
+      ],
+      "displayVillage": {
+        "address": "Cloverton Boulevard, Kalkallo VIC 3064",
+        "openHours": "Monday to Sunday, 11am - 5pm",
+        "displayHomes": 20,
+        "builders": ["Metricon", "Henley", "Simonds", "Carlisle", "Burbank", "Porter Davis"]
+      },
+      "grants": [
+        {
+          "name": "First Home Owner Grant (VIC)",
+          "amount": 10000,
+          "eligibility": "First home buyers purchasing a new home valued up to $750,000",
+          "details": "The Victorian Government provides a $10,000 grant for eligible first home buyers purchasing or building a new home."
+        },
+        {
+          "name": "First Home Buyer Duty Exemption",
+          "amount": null,
+          "eligibility": "First home buyers purchasing property up to $600,000",
+          "details": "Full stamp duty exemption for properties up to $600,000, and concessions for properties between $600,000 and $750,000."
+        }
+      ]
+    },
+    {
+      "id": "community-cardinal-freeman",
+      "name": "Cardinal Freeman",
+      "location": "Ashfield, NSW",
+      "state": "NSW",
+      "type": "retirement_living",
+      "status": "selling",
+      "description": "Cardinal Freeman by Stockland is a premium retirement living village in the heart of Ashfield, offering independent living apartments with resort-style facilities. Perfectly located for retirees who want to stay connected to Sydney's inner west lifestyle.",
+      "features": [
+        "Premium inner-west Sydney location",
+        "Independent living apartments",
+        "Resort-style facilities",
+        "Close to Ashfield Mall and local shops",
+        "Walking distance to Ashfield Station",
+        "Beautiful landscaped gardens",
+        "24/7 emergency call system",
+        "Pet-friendly community"
+      ],
+      "amenities": [
+        "Heated swimming pool",
+        "Community centre and lounge",
+        "Library",
+        "Gymnasium",
+        "Landscaped gardens and courtyards",
+        "Workshop",
+        "Hair salon",
+        "BBQ areas",
+        "Bowling green",
+        "Chapel"
+      ],
+      "transport": {
+        "trainStations": ["Ashfield Station"],
+        "majorRoads": ["Parramatta Road", "Liverpool Road"],
+        "distanceToCBD": "8km to Sydney CBD"
+      },
+      "listings": [
+        {
+          "id": "listing-cardinal-001",
+          "type": "retirement_apartment",
+          "name": "One Bedroom Apartment",
+          "bedrooms": 1,
+          "bathrooms": 1,
+          "parking": 1,
+          "size": "65sqm",
+          "priceFrom": 550000,
+          "priceTo": 650000,
+          "features": ["Open-plan living", "Modern kitchen", "Balcony", "Secure parking", "Storage cage"],
+          "availability": "available",
+          "suitableFor": ["singles", "downsizers"]
+        },
+        {
+          "id": "listing-cardinal-002",
+          "type": "retirement_apartment",
+          "name": "Two Bedroom Apartment",
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "parking": 1,
+          "size": "85sqm",
+          "priceFrom": 750000,
+          "priceTo": 900000,
+          "features": ["Spacious living", "Modern kitchen", "Balcony or courtyard", "Secure parking", "Storage cage", "Built-in robes"],
+          "availability": "available",
+          "suitableFor": ["couples", "downsizers"]
+        },
+        {
+          "id": "listing-cardinal-003",
+          "type": "retirement_apartment",
+          "name": "Two Bedroom Premium Apartment",
+          "bedrooms": 2,
+          "bathrooms": 2,
+          "parking": 1,
+          "size": "105sqm",
+          "priceFrom": 900000,
+          "priceTo": 1100000,
+          "features": ["Premium finishes", "Large balcony", "Harbour glimpses (select units)", "Ensuite to master", "Study nook", "Secure parking", "Storage cage"],
+          "availability": "limited",
+          "suitableFor": ["couples", "downsizers", "premium_buyers"]
+        }
+      ],
+      "retirementLivingInfo": {
+        "contractType": "Loan/Licence Agreement",
+        "exitFee": "Deferred Management Fee applies — details provided during consultation",
+        "ongoingFees": "Monthly service fees cover maintenance, facilities, and community management",
+        "ageRequirement": "At least one resident must be 55 years or older",
+        "petsAllowed": true,
+        "careServices": "Independent living with optional home care packages available through third-party providers",
+        "waitlist": "No formal waitlist — availability subject to current stock. Early registration recommended for premium units."
+      }
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-001",
+      "category": "pricing",
+      "question": "What are the current prices for house and land packages?",
+      "answer": "Our house and land packages vary by community and configuration. Prices typically start from around $430k in WA communities like Aura at Calleya, from $490k in VIC communities like Cloverton, and from $540k in NSW communities like Elara and Willowdale. For the most up-to-date pricing, I'd recommend visiting our display village or speaking with our sales team."
+    },
+    {
+      "id": "faq-002",
+      "category": "pricing",
+      "question": "What are the current land prices?",
+      "answer": "Land prices depend on the community, lot size, and position. Standard lots typically range from $250k-$450k depending on the state and location. Premium lots (corner, north-facing, park frontage) command a premium. Contact our sales team for current availability and pricing in your preferred community."
+    },
+    {
+      "id": "faq-003",
+      "category": "first_home_buyers",
+      "question": "What grants are available for first home buyers?",
+      "answer": "First home buyers may be eligible for the First Home Owner Grant (FHOG) of $10,000 in NSW, VIC, and WA when purchasing a new home. Additional stamp duty exemptions and concessions may also apply. Eligibility criteria vary by state — our sales team can help you understand what you may be entitled to."
+    },
+    {
+      "id": "faq-004",
+      "category": "first_home_buyers",
+      "question": "Can I use the First Home Owner Grant at Stockland communities?",
+      "answer": "Yes! All our new house and land packages and new home builds are eligible for the First Home Owner Grant, subject to the price caps and eligibility criteria in your state. Our sales consultants can walk you through the application process."
+    },
+    {
+      "id": "faq-005",
+      "category": "availability",
+      "question": "How do I check what's currently available?",
+      "answer": "The best way to see current availability is to visit our display village or contact our sales team directly. Availability changes frequently as new releases come to market and lots are sold. We can also add you to our priority notification list for upcoming releases."
+    },
+    {
+      "id": "faq-006",
+      "category": "availability",
+      "question": "When is the next land release?",
+      "answer": "Land releases happen regularly across our communities. The timing varies by community and stage of development. I'd recommend registering your interest with our sales team so you'll be among the first to know about upcoming releases in your preferred community."
+    },
+    {
+      "id": "faq-007",
+      "category": "building",
+      "question": "How long does it take to build a home?",
+      "answer": "Build times typically range from 6 to 12 months depending on the home design, builder, and any customisations. House and land packages with homes already under construction may be available sooner. Our sales team can provide specific timelines for available packages."
+    },
+    {
+      "id": "faq-008",
+      "category": "building",
+      "question": "Can I choose my own builder?",
+      "answer": "If you purchase a land-only lot, you're free to choose any licensed builder. For house and land packages, the builder is typically one of our approved builder partners who are familiar with our design guidelines and community standards. Our display villages showcase homes from multiple builders so you can compare styles and inclusions."
+    },
+    {
+      "id": "faq-009",
+      "category": "building",
+      "question": "What's included in a house and land package?",
+      "answer": "Our house and land packages typically include the land, home construction, site costs, driveway, landscaping to the front yard, and standard inclusions like flooring, kitchen appliances, and fixtures. Specific inclusions vary by builder and package — our sales team can provide a detailed inclusions list for any package you're interested in."
+    },
+    {
+      "id": "faq-010",
+      "category": "investment",
+      "question": "Are Stockland communities good for investment?",
+      "answer": "Many of our communities are located in high-growth corridors with strong rental demand and capital growth potential. For example, Willowdale in Leppington benefits from proximity to the new Western Sydney Airport. New builds also offer maximum depreciation benefits. Our sales team can provide specific rental yield data and growth projections for each community."
+    },
+    {
+      "id": "faq-011",
+      "category": "investment",
+      "question": "What rental yields can I expect?",
+      "answer": "Rental yields vary by community and property type. As a guide, our communities in growth corridors typically see yields of 4-5% for houses. Specific yield data is available from our sales team, and we can also connect you with property managers who specialise in our communities."
+    },
+    {
+      "id": "faq-012",
+      "category": "display_village",
+      "question": "When are the display homes open?",
+      "answer": "Most of our display villages are open 7 days a week, typically from 10am-5pm (hours may vary by location and season). No appointment is needed for a general visit, but if you'd like a personalised tour with a sales consultant, we recommend booking ahead so we can give you our full attention."
+    },
+    {
+      "id": "faq-013",
+      "category": "display_village",
+      "question": "Can I book a private tour?",
+      "answer": "Absolutely! We'd love to arrange a private tour for you. Our sales consultants can show you through the display homes, walk you through available lots, and discuss your specific needs and budget. Just let us know your preferred day and time, and we'll set it up."
+    },
+    {
+      "id": "faq-014",
+      "category": "retirement_living",
+      "question": "What is retirement living?",
+      "answer": "Stockland retirement living offers independent living for over-55s in a community setting with resort-style facilities. You purchase the right to live in your home under a loan/licence agreement, with access to shared amenities like pools, gyms, gardens, and community centres. It's a great option for those looking to downsize while enjoying an active social lifestyle."
+    },
+    {
+      "id": "faq-015",
+      "category": "retirement_living",
+      "question": "Is there a waitlist for retirement living?",
+      "answer": "Availability varies by village. Some of our more popular villages may have limited stock, but we don't typically operate a formal waitlist. We recommend registering your interest early, especially for premium units, so our team can contact you as soon as suitable options become available."
+    },
+    {
+      "id": "faq-016",
+      "category": "retirement_living",
+      "question": "Can I bring my pet to a retirement village?",
+      "answer": "Yes, many of our retirement villages are pet-friendly! We understand that pets are part of the family. Specific pet policies may vary by village, so please check with our retirement living team for details about your preferred community."
+    },
+    {
+      "id": "faq-017",
+      "category": "finance",
+      "question": "Do you offer finance assistance?",
+      "answer": "While Stockland doesn't provide finance directly, our sales team can connect you with trusted mortgage brokers and financial advisors who specialise in new home purchases. We can also help you understand the grants and incentives you may be eligible for."
+    },
+    {
+      "id": "faq-018",
+      "category": "finance",
+      "question": "What deposit do I need?",
+      "answer": "Deposit requirements vary depending on your lender and financial situation. Typically, a 5-10% deposit is required for a house and land package, with the land deposit paid at exchange and the building deposit paid at construction commencement. Some government programs like Keystart in WA offer low-deposit options. Our sales team can provide more specific guidance."
+    },
+    {
+      "id": "faq-019",
+      "category": "community",
+      "question": "What amenities are included in Stockland communities?",
+      "answer": "Our masterplanned communities typically include parks, playgrounds, walking and cycling trails, BBQ areas, and community spaces. Many also feature sports facilities, dog parks, and retail villages. Specific amenities vary by community — check the community page or ask our sales team for details."
+    },
+    {
+      "id": "faq-020",
+      "category": "community",
+      "question": "Are there schools near Stockland communities?",
+      "answer": "Yes, all our communities are planned with education in mind. Most are located near existing schools, and many of our larger communities include new schools as part of the masterplan. Our sales team can provide details about schools near your preferred community."
+    }
+  ],
+  "responseTemplates": [
+    {
+      "id": "template-greeting-instagram",
+      "platform": "instagram",
+      "category": "greeting",
+      "name": "Instagram Greeting",
+      "template": "Hi {senderName}! 👋 Thanks so much for reaching out to us on Instagram. We'd love to help you find your perfect {propertyType}.",
+      "variables": ["senderName", "propertyType"],
+      "tone": "friendly_casual"
+    },
+    {
+      "id": "template-greeting-facebook",
+      "platform": "facebook",
+      "category": "greeting",
+      "name": "Facebook Greeting",
+      "template": "Hi {senderName}! Thanks for getting in touch. We're excited to help you explore what's available at {communityName}.",
+      "variables": ["senderName", "communityName"],
+      "tone": "friendly_professional"
+    },
+    {
+      "id": "template-first-home-buyer",
+      "platform": "any",
+      "category": "first_home_buyer",
+      "name": "First Home Buyer Response",
+      "template": "Congratulations on taking this exciting step towards your first home! 🎉 With your budget of {budget}, we have some great options at {communityName}. As a first home buyer, you may also be eligible for the ${grantAmount} First Home Owner Grant, which could make a real difference. Would you like me to walk you through the options?",
+      "variables": ["budget", "communityName", "grantAmount"],
+      "tone": "encouraging_supportive"
+    },
+    {
+      "id": "template-investor",
+      "platform": "any",
+      "category": "investor",
+      "name": "Investor Response",
+      "template": "Thanks for your interest in investing at {communityName}! It's a great choice — the area is seeing strong growth with {growthDrivers}. Current rental yields are around {rentalYield}, and new builds offer excellent depreciation benefits. Would you like me to send through our investor information pack with detailed projections?",
+      "variables": ["communityName", "growthDrivers", "rentalYield"],
+      "tone": "professional_informative"
+    },
+    {
+      "id": "template-family-home",
+      "platform": "any",
+      "category": "family_home",
+      "name": "Family Home Response",
+      "template": "Great news — {communityName} is a wonderful choice for families! We have {bedroomCount}-bedroom options in your budget range, with features like {keyFeatures}. The community also offers {communityAmenities} which are perfect for families. Would you like to visit our display village to see the homes in person?",
+      "variables": ["communityName", "bedroomCount", "keyFeatures", "communityAmenities"],
+      "tone": "warm_enthusiastic"
+    },
+    {
+      "id": "template-display-village-invite",
+      "platform": "any",
+      "category": "display_village",
+      "name": "Display Village Invitation",
+      "template": "I'd love for you to visit our display village at {communityName}! We're open {openHours} at {address}. We have {displayHomeCount} display homes to explore, and our sales consultants can walk you through everything. Would {suggestedDay} work for you? 🏡",
+      "variables": ["communityName", "openHours", "address", "displayHomeCount", "suggestedDay"],
+      "tone": "inviting_friendly"
+    },
+    {
+      "id": "template-retirement-living",
+      "platform": "any",
+      "category": "retirement_living",
+      "name": "Retirement Living Response",
+      "template": "Thank you for your interest in {communityName} — it's a truly special community. We have {propertyType} available in the {budgetRange} range, with access to wonderful facilities including {amenities}. I'd recommend booking a private tour so {residentName} can see everything firsthand. Would you be available this week?",
+      "variables": ["communityName", "propertyType", "budgetRange", "amenities", "residentName"],
+      "tone": "warm_respectful"
+    },
+    {
+      "id": "template-land-inquiry",
+      "platform": "any",
+      "category": "land",
+      "name": "Land Inquiry Response",
+      "template": "We have some great land options at {communityName}! In your budget range, you'd be looking at lots around {lotSize} — {lotFeatures}. We also have premium lots with {premiumFeatures} if you're after something special. Would you like me to send through our lot availability map?",
+      "variables": ["communityName", "lotSize", "lotFeatures", "premiumFeatures"],
+      "tone": "helpful_informative"
+    },
+    {
+      "id": "template-budget-guidance",
+      "platform": "any",
+      "category": "budget",
+      "name": "Budget Guidance Response",
+      "template": "With a budget of {budget}, you have some excellent options at {communityName}. I'd suggest looking at our {recommendedRange} which includes {keyInclusions}. {grantInfo} Would you like to explore these options further?",
+      "variables": ["budget", "communityName", "recommendedRange", "keyInclusions", "grantInfo"],
+      "tone": "helpful_reassuring"
+    },
+    {
+      "id": "template-follow-up",
+      "platform": "any",
+      "category": "follow_up",
+      "name": "Follow Up Response",
+      "template": "Hi {senderName}! Just following up on our earlier conversation about {topic}. Have you had a chance to think about {nextStep}? I'm here to help with any questions you might have. 😊",
+      "variables": ["senderName", "topic", "nextStep"],
+      "tone": "friendly_gentle"
+    },
+    {
+      "id": "template-closing-cta",
+      "platform": "any",
+      "category": "closing",
+      "name": "Closing with Call to Action",
+      "template": "I'd love to help you take the next step! You can:\n📞 Call us on {phoneNumber}\n📧 Email {emailAddress}\n🏡 Visit our display village at {address}\n\nOr I can arrange a personal consultation at a time that suits you. What works best?",
+      "variables": ["phoneNumber", "emailAddress", "address"],
+      "tone": "action_oriented"
+    }
+  ],
+  "brandGuidelines": {
+    "tone": {
+      "primary": "Warm, friendly, and professional",
+      "description": "Stockland's brand voice is approachable and genuine. We speak to customers as trusted advisors, not salespeople. We're enthusiastic about helping people find their perfect home, but never pushy.",
+      "doList": [
+        "Use a warm, conversational tone",
+        "Be genuinely helpful and informative",
+        "Show enthusiasm for the community and lifestyle",
+        "Use emojis sparingly and appropriately (1-2 per message on social)",
+        "Personalise responses using the customer's name",
+        "Ask open-ended questions to understand needs",
+        "Offer specific next steps and calls to action",
+        "Acknowledge the customer's situation and needs"
+      ],
+      "dontList": [
+        "Use high-pressure sales language",
+        "Make promises about pricing or availability that may change",
+        "Use excessive exclamation marks or emojis",
+        "Be overly formal or corporate",
+        "Ignore the customer's specific questions",
+        "Provide financial advice (refer to qualified professionals)",
+        "Share other customers' personal information",
+        "Use jargon without explanation"
+      ]
+    },
+    "compliance": {
+      "disclaimers": [
+        "Prices are subject to change and availability.",
+        "Images and artist impressions are indicative only.",
+        "Grant eligibility is subject to government criteria — seek independent advice.",
+        "Rental yield projections are estimates only and not guaranteed."
+      ],
+      "piiHandling": "Never request or store sensitive personal information (tax file numbers, bank details, full addresses) via social media DMs. Direct customers to secure channels for sensitive transactions.",
+      "financialAdvice": "Stockland does not provide financial advice. Always recommend customers seek independent financial advice for investment decisions, loan applications, and grant eligibility."
+    }
+  },
+  "metadata": {
+    "totalCommunities": 6,
+    "totalListings": 26,
+    "totalFAQs": 20,
+    "totalTemplates": 11,
+    "states": ["NSW", "VIC", "WA"],
+    "propertyTypes": ["house_and_land", "land", "retirement_apartment"],
+    "categories": ["pricing", "first_home_buyers", "availability", "building", "investment", "display_village", "retirement_living", "finance", "community"]
+  }
+}

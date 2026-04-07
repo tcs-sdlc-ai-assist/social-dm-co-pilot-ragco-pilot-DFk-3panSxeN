@@ -1,0 +1,57 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "regions": ["syd1"],
+  "env": {
+    "NEXTAUTH_URL": "@nextauth-url",
+    "NEXTAUTH_SECRET": "@nextauth-secret",
+    "DATABASE_URL": "@database-url",
+    "AZURE_AD_CLIENT_ID": "@azure-ad-client-id",
+    "AZURE_AD_CLIENT_SECRET": "@azure-ad-client-secret",
+    "AZURE_AD_TENANT_ID": "@azure-ad-tenant-id",
+    "AZURE_OPENAI_API_KEY": "@azure-openai-api-key",
+    "AZURE_OPENAI_ENDPOINT": "@azure-openai-endpoint",
+    "AZURE_OPENAI_DEPLOYMENT_NAME": "@azure-openai-deployment-name",
+    "SALESFORCE_API_URL": "@salesforce-api-url",
+    "SALESFORCE_API_KEY": "@salesforce-api-key"
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, max-age=0"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!api|_next|favicon.ico|.*\\..*).*)",
+      "destination": "/"
+    }
+  ]
+}
