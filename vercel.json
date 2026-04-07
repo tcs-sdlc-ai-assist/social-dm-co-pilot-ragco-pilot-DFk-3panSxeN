@@ -1,8 +1,10 @@
 {
   "framework": "nextjs",
-  "buildCommand": "next build",
+  "buildCommand": "npx prisma generate && next build",
   "outputDirectory": ".next",
-  "regions": ["syd1"],
+  "regions": [
+    "syd1"
+  ],
   "env": {
     "NEXTAUTH_URL": "@nextauth-url",
     "NEXTAUTH_SECRET": "@nextauth-secret",
@@ -46,12 +48,6 @@
           "value": "strict-origin-when-cross-origin"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/((?!api|_next|favicon.ico|.*\\..*).*)",
-      "destination": "/"
     }
   ]
 }
